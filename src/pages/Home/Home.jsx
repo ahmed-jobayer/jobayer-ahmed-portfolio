@@ -1,12 +1,13 @@
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
+import Banner from "./Banner/Banner";
 
 const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="container mx-auto">
-
+            <div >
+                <Banner></Banner>
             </div>
             <Footer></Footer>
         </div>
