@@ -66,9 +66,6 @@ const Navbar = () => {
           </label>
         </div>
       </div>
-      <div>
-        hhhh
-      </div>
     </div>
   );
 };
