@@ -31,7 +31,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="border-b-[1px] border-[#61dbfb] fixed w-full bg-base-100">
+    <div className="border-b-[1px] border-[#61dbfb] fixed w-full bg-base-100 z-50">
       <div className="navbar  container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -65,6 +65,9 @@ const Navbar = () => {
             <BsMoonStars class="fill-black opacity-60 peer-checked:opacity-70 peer-checked:fill-white absolute w-4 h-4 right-[5px]"/>
           </label>
         </div>
+      </div>
+      <div>
+        hhhh
       </div>
     </div>
   );

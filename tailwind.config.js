@@ -8,6 +8,9 @@ export default {
     extend: {
       animation: {
         'spin-slow': 'spin 10s linear infinite'
+      },
+      fontFamily: {
+        permanentMarker: ['Permanent Marker', 'cursive'],
       }
     },
   },
