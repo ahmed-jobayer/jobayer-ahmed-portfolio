@@ -1,4 +1,3 @@
-import profileImage from '../../../assets/profile.png'
 
 const AboutMe = () => {
   return (
@@ -8,16 +7,16 @@ const AboutMe = () => {
         <div className="grid grid-cols-2 my-12">
           <div className="flex justify-center items-center">
             <p className="max-w-[450px] text-center ">
-              <span className="block mb-5">I am a JavaScript Developer.</span>I
+              <span className="block mb-5">I am a MERN Stack Developer.</span>I
               enjoy learning about technology and helping others use it to
               improve their lives and be more productive. I built this site with
-              React, React Bootstrap, Redux, and the GitHub REST API.
+              React, Tailwind CSS and Daisy UI.
             </p>
           </div>
           <div className="flex justify-center">
             <div className="avatar ">
               <div className=" w-[240px] rounded-full ">
-                <img src={profileImage} />
+              <img src="/images/profile.png" alt="Profile" />
               </div>
             </div>
           </div>

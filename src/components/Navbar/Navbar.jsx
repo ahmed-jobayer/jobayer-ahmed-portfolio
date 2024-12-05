@@ -62,7 +62,7 @@ const Navbar = () => {
              peer-checked:after:left-[68px] peer-checked:after:translate-x-[-100%] shadow-sm duration-300 
              after:duration-300 after:shadow-md"></div>
             <IoSunnyOutline className="fill-white peer-checked:opacity-60 absolute w-4 h-4 left-[5px] text-black" />
-            <BsMoonStars class="fill-black opacity-60 peer-checked:opacity-70 peer-checked:fill-white absolute w-4 h-4 right-[5px]"/>
+            <BsMoonStars className="fill-black opacity-60 peer-checked:opacity-70 peer-checked:fill-white absolute w-4 h-4 right-[5px]"/>
           </label>
         </div>
       </div>
