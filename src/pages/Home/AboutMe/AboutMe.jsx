@@ -1,7 +1,7 @@
 
 const AboutMe = () => {
   return (
-    <div className="min-h-screen flex items-center">
+    <div id="about-me" className="min-h-screen flex items-center">
       <div className="container mx-auto">
         <h2 className="text-center font-permanentMarker text-4xl">About Me</h2>
         <div className="grid grid-cols-2 my-12">

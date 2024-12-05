@@ -3,25 +3,31 @@ import { FaReact } from "react-icons/fa";
 import { BsMoonStars } from "react-icons/bs";
 import { IoSunnyOutline } from "react-icons/io5";
 
+const handleScrollToSection = (id)=> {
+  const sec = document.getElementById(id)
+  if (sec) {
+    sec.scrollIntoView({behavior:"smooth",})
+  }
+}
 
 const Navbar = () => {
   const links = (
     <>
       <li>
         {" "}
-        <a>Home</a>{" "}
+        <a onClick={()=> handleScrollToSection("banner")}>Home</a>{" "}
       </li>
       <li>
         {" "}
-        <a>About Me</a>{" "}
+        <a onClick={()=> handleScrollToSection("about-me")}>About Me</a>{" "}
       </li>
       <li>
         {" "}
-        <a>Skills</a>{" "}
+        <a onClick={()=> handleScrollToSection("skills")}>Skills</a>{" "}
       </li>
       <li>
         {" "}
-        <a>Projects</a>{" "}
+        <a onClick={()=> handleScrollToSection("projects")}>Projects</a>{" "}
       </li>
       <li>
         {" "}

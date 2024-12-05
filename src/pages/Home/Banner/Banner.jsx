@@ -7,7 +7,7 @@ import { IoChevronDownCircle } from "react-icons/io5";
 
 const Banner = () => {
     return (
-        <div className=" text-white min-h-screen grid grid-cols-2 bg-cover bg-fixed bg-center pt-36" style={{backgroundImage:"url('/images/hero-dark.jpg')"}}>
+        <div id="banner" className=" text-white min-h-screen grid grid-cols-2 bg-cover bg-fixed bg-center pt-36" style={{backgroundImage:"url('/images/hero-dark.jpg')"}}>
             <div className="flex flex-col items-center justify-center">
                 <h1 className="text-6xl mb-8 font-permanentMarker">Jobayer Ahmed</h1>
                 <div className="flex text-4xl gap-6">

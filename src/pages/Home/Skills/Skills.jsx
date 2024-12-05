@@ -4,8 +4,8 @@ import { IoLogoJavascript } from "react-icons/io5";
 
 
 const Skills = () => {
-  return (
-    <div className="container mx-auto ">
+  return ( 
+    <div id="skills" className="container mx-auto ">
         <h2 className="text-center font-permanentMarker text-4xl">Skills</h2>
       <div className="grid grid-cols-3  min-h-screen text-center">
         <div className="flex items-center justify-center">
