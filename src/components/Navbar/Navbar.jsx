@@ -51,7 +51,7 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a className=" ">
+          <a className=" hidden lg:flex">
             <FaReact className="text-4xl"/>
           </a>
         </div>
