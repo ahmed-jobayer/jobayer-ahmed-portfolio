@@ -1,52 +1,89 @@
-
 import { FaCss3, FaGitAlt, FaGithub, FaHtml5, FaReact } from "react-icons/fa";
+import { FaNode } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
-
+import { SiExpress, SiMongodb, SiTailwindcss, SiVite } from "react-icons/si";
 
 const Skills = () => {
-  return ( 
+  const skills = [
+    {
+      name: "HTML5",
+      icon: FaHtml5, 
+    },
+    {
+      name: "CSS3",
+      icon: FaCss3,  
+    },
+    {
+      name: "Javascript",
+      icon: IoLogoJavascript,  
+    },
+    {
+      name: "React",
+      icon: FaReact,  
+    },
+    {
+      name: "Node.js",
+      icon: FaNode,  
+    },
+    {
+      name: "Express.js",
+      icon: SiExpress,  
+    },
+    {
+      name: "MongoDB",
+      icon: SiMongodb,  
+    },
+    {
+      name: "Tailwind CSS",
+      icon: SiTailwindcss,  
+    },
+    {
+      name: "Vite",
+      icon: SiVite,  
+    },
+    {
+      name: "Git",
+      icon: FaGitAlt,  
+    },
+    {
+      name: "GitHub",
+      icon: FaGithub,  
+    },
+  ];
+
+  return (
     <div id="skills" className="container mx-auto ">
-        <h2 className="text-center font-permanentMarker text-4xl">Skills</h2>
+      <h2 className="text-center font-permanentMarker text-4xl">Skills</h2>
       <div className="grid grid-cols-3  min-h-screen text-center">
-        <div className="flex items-center justify-center">
-          <div>
-            <FaHtml5 className="text-6xl"></FaHtml5>
-            <p>HTML5</p>
-          </div>
-        </div>
-        <div className="flex items-center justify-center">
-          <div>
-            <FaCss3 className="text-6xl"></FaCss3>
-            <p>CSS3</p>
-          </div>
-        </div>
-        <div className="flex items-center justify-center">
-          <div>
-            <IoLogoJavascript className="text-6xl"></IoLogoJavascript>
-            <p>Javascript</p>
-          </div>
-        </div>
-        <div className="flex items-center justify-center">
-          <div>
-            <FaReact className="text-6xl"></FaReact>
-            <p>React</p>
-          </div>
-        </div>
-        <div className="flex items-center justify-center">
-          <div>
-            <FaGitAlt className="text-6xl"></FaGitAlt>
-            <p>Git</p>
-          </div>
-        </div>
-        <div className="flex items-center justify-center">
-          <div>
-            <FaGithub className="text-6xl"></FaGithub>
-            <p>GitHub</p>
-          </div>
-        </div>
+        {skills.map((skill, i) => (
+         <div key={i} className="flex flex-col items-center justify-center">
+         <div className="text-6xl">
+           {/* Render the icon component */}
+           <skill.icon />
+         </div>
+         <p className="mt-2">{skill.name}</p>
+       </div>
+        ))}
       </div>
     </div>
   );
 };
 
 export default Skills;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,6 +11,7 @@ export default {
       },
       fontFamily: {
         permanentMarker: ['Permanent Marker', 'cursive'],
+        poiretOne: ['Poiret One', 'cursive'],
       }
     },
   },

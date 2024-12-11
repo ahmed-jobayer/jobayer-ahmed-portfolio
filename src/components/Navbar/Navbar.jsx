@@ -2,6 +2,7 @@ import { FaBarsProgress } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
 import { BsMoonStars } from "react-icons/bs";
 import { IoSunnyOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const handleScrollToSection = (id)=> {
   const sec = document.getElementById(id)
@@ -15,7 +16,7 @@ const Navbar = () => {
     <>
       <li>
         {" "}
-        <a onClick={()=> handleScrollToSection("banner")}>Home</a>{" "}
+        <Link to='/' onClick={()=> handleScrollToSection("banner")}>Home</Link>{" "}
       </li>
       <li>
         {" "}
@@ -31,7 +32,7 @@ const Navbar = () => {
       </li>
       <li>
         {" "}
-        <a>Contact</a>{" "}
+        <Link to='/contact'>Contact</Link>{" "}
       </li>
     </>
   );
