@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaPhoneAlt, FaWhatsappSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 const Contact = () => {
 
@@ -22,13 +22,19 @@ const Contact = () => {
         <div className="lg:w-1/2 mt-8 lg:mt-0">
           <div className="flex flex-col space-y-8">
             {/* Contact Info */}
-            <div>
+            <div className="text-[#AEA7AA]">
               <a
                 href="mailto: jobayerahmed.dev@gmail.com"
-                className="text-xl font-medium text-[#AEA7AA] pb-1 border-b"
+                className="text-xl font-medium  pb-1 border-b"
               >
                 jobayerahmed.dev@gmail.com
               </a>
+              <div className="flex items-center mt-2 text-lg">
+              <FaPhoneAlt />
+              <span className="mx-1">&</span>
+              <FaWhatsappSquare className="mr-2" />
+              +8801580320721
+              </div>
             </div>
 
             {/* Social Links */}
