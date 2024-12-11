@@ -19,6 +19,11 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
+        <a href="https://docs.google.com/document/d/1P4VFC8mCbkUcYXuFzZPR3UH6MTb7XLp7PllHIuufdHY/edit?tab=t.0"
+        target="_blank"
+        className="flex justify-center my-20 font-poiretOne tracking-widest text-2xl ">
+          <button className="p-1 rounded-lg w-3/5 lg:w-2/6 bg-[#43555a] hover:bg-[#313f42] hover:scale-105 duration-300">Resume</button>
+        </a>
       </div>
     </div>
   );

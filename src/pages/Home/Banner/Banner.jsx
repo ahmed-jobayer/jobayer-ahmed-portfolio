@@ -2,6 +2,13 @@ import { FaGithub, FaLinkedin, FaReact } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoChevronDownCircle } from "react-icons/io5";
 
+const handleScrollToSection = (id) => {
+  const sec = document.getElementById(id);
+  if (sec) {
+    sec.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
 const Banner = () => {
   return (
     <div
@@ -16,18 +23,21 @@ const Banner = () => {
         </h1>
         <div className="flex text-3xl sm:text-4xl gap-4 sm:gap-6">
           <a
+            className="hover:scale-125 duration-300"
             href="https://github.com/ahmed-jobayer"
             target="_blank"
           >
             <FaGithub />
           </a>
           <a
+            className="hover:scale-125 duration-300"
             href="https://www.linkedin.com/in/ahmed-jobayer/"
             target="_blank"
           >
             <FaLinkedin />
           </a>
           <a
+            className="hover:scale-125 duration-300"
             href="https://x.com/ahmed__jobayer"
             target="_blank"
           >
@@ -42,8 +52,13 @@ const Banner = () => {
       </div>
 
       {/* down arrow */}
-      <div className="col-span-1 md:col-span-2 flex justify-center text-4xl sm:text-5xl mt-8">
-        <IoChevronDownCircle />
+      <div className="col-span-1 md:col-span-2 flex justify-center text-4xl sm:text-5xl mt-8  " >
+        <p className="tooltip h-fit" data-tip="Projects">
+        <IoChevronDownCircle
+          className="hover:scale-110 duration-300 hover: cursor-pointer  "
+          onClick={() => handleScrollToSection("projects")}
+        />
+        </p>
       </div>
     </div>
   );
