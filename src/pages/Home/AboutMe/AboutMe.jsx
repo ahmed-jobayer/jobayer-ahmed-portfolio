@@ -7,7 +7,7 @@ const AboutMe = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 my-12 gap-4">
           <div className="flex justify-center items-center order-2 lg:order-1">
             <p className="max-w-[450px] text-center ">
-             <h2 className="mb-5 text-2xl font-semibold">I am a MERN Stack Developer.</h2>
+             <span className="mb-5 text-2xl font-semibold">I am a MERN Stack Developer.</span>
               I enjoy designing and building complete web applications, from crafting responsive frontends with React and Tailwind CSS to developing robust backends using Node.js, Express.js, and MongoDB. I continuously strive to enhance my skills by taking on challenging projects that combine functionality, scalability, and clean code..
             </p>
           </div>

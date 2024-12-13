@@ -1,24 +1,23 @@
 [
-    {
-      "image": "https://imgur.com/lISji1U.png",
-      "name": "UrbanNest",
-      "description": "A real estate platform for managing property listings with search and authentication features.",
-      "liveLink": "https://heartfelt-scone-8b0451.netlify.app",
-      "githubLink": "https://github.com/ahmed-jobayer/urban-nest-client"
-    },
-    {
-      "image": "https://imgur.com/wlBwLEv.png",
-      "name": "ForumVerse",
-      "description": "A community forum with threaded discussions and secure user authentication.",
-      "liveLink": "https://forumversecom.netlify.app",
-      "githubLink": "https://github.com/ahmed-jobayer/ForumVerse-client"
-    },
-    {
-      "image": "https://imgur.com/UJVylHh.png",
-      "name": "ElectroFix",
-      "description": "A repair service platform with booking, customer management, and invoicing features.",
-      "liveLink": "https://electro-fix.netlify.app",
-      "githubLink": "https://github.com/ahmed-jobayer/electro-fix-client"
-    }
-  ]
-  
+  {
+    "image": "https://imgur.com/lISji1U.png",
+    "name": "UrbanNest",
+    "description": "A real estate platform for managing property listings with search and authentication features.",
+    "liveLink": "https://heartfelt-scone-8b0451.netlify.app",
+    "githubLink": "https://github.com/ahmed-jobayer/urban-nest-client"
+  },
+  {
+    "image": "https://imgur.com/wlBwLEv.png",
+    "name": "ForumVerse",
+    "description": "A community forum with threaded discussions and secure user authentication.",
+    "liveLink": "https://forumversecom.netlify.app",
+    "githubLink": "https://github.com/ahmed-jobayer/ForumVerse-client"
+  },
+  {
+    "image": "https://imgur.com/UJVylHh.png",
+    "name": "ElectroFix",
+    "description": "A repair service platform with booking, customer management, and invoicing features.",
+    "liveLink": "https://electro-fix.netlify.app",
+    "githubLink": "https://github.com/ahmed-jobayer/electro-fix-client"
+  }
+]
